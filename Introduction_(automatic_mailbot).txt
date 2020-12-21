@@ -1,0 +1,20 @@
+
+project:automatic_mailbot
+
+Abstract: This is one of a automation project to automate mail using python. 
+          By this feature one can send his mail via only voice command. He
+          will write the addresses, subject, messege via voice.
+ 
+code changes: In [def send_email(receiver, subject, message)] we have to put 
+              sender_email_address, and sender_email_password.
+              We have to create our own email list.
+
+Google setting: We have to change the google setting as we are using our own 
+                bot for sending mails. We have just to enable 'Less Secure 
+                App Access' to give permission.
+                open_gmail_account>manage_your_google_account>security>
+                less_secure_app_access------(enable it)
+
+    THAT'S IT.
+    OUR automatic_mailbot is ready to sending mails.
+             
